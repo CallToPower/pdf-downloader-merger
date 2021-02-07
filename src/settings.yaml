@@ -1,0 +1,87 @@
+logging:
+    date_format: "%d-%m-%Y %H:%M:%S"
+    format: "[%(asctime)s] [%(levelname)-5s] [%(module)-10s:%(lineno)-4s] %(message)s"
+    level: "info"
+files:
+    download:
+        active: True
+        force: False
+    merge:
+        active: True
+        create_frontpage: True
+    out_directory: "download"
+    addresses:
+        https://pages.cs.wisc.edu/~remzi/OSTEP/:
+            name: "OSTEP"
+            fullname: "Operating Systems: Three Easy Pieces"
+            descriptions:
+                - "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau (University of Wisconsin-Madison)"
+                - "Security Chapters by Peter Reiher (UCLA)"
+            files:
+                - preface.pdf
+                - toc.pdf
+                - dialogue-threeeasy.pdf
+                - intro.pdf
+                - dialogue-virtualization.pdf
+                - cpu-intro.pdf
+                - cpu-api.pdf
+                - cpu-mechanisms.pdf
+                - cpu-sched.pdf
+                - cpu-sched-mlfq.pdf
+                - cpu-sched-lottery.pdf
+                - cpu-sched-multi.pdf
+                - cpu-dialogue.pdf
+                - dialogue-vm.pdf
+                - vm-intro.pdf
+                - vm-api.pdf
+                - vm-mechanism.pdf
+                - vm-segmentation.pdf
+                - vm-freespace.pdf
+                - vm-paging.pdf
+                - vm-tlbs.pdf
+                - vm-smalltables.pdf
+                - vm-beyondphys.pdf
+                - vm-beyondphys-policy.pdf
+                - vm-complete.pdf
+                - vm-dialogue.pdf
+                - dialogue-concurrency.pdf
+                - threads-intro.pdf
+                - threads-api.pdf
+                - threads-locks.pdf
+                - threads-locks-usage.pdf
+                - threads-cv.pdf
+                - threads-sema.pdf
+                - threads-bugs.pdf
+                - threads-events.pdf
+                - threads-dialogue.pdf
+                - dialogue-persistence.pdf
+                - file-devices.pdf
+                - file-disks.pdf
+                - file-raid.pdf
+                - file-intro.pdf
+                - file-implementation.pdf
+                - file-ffs.pdf
+                - file-journaling.pdf
+                - file-lfs.pdf
+                - file-ssd.pdf
+                - file-integrity.pdf
+                - file-dialogue.pdf
+                - dialogue-distribution.pdf
+                - dist-intro.pdf
+                - dist-nfs.pdf
+                - dist-afs.pdf
+                - dist-dialogue.pdf
+                - dialogue-security.pdf
+                - security-intro.pdf
+                - security-authentication.pdf
+                - security-access.pdf
+                - security-crypto.pdf
+                - security-distributed.pdf
+                - dialogue-vmm.pdf
+                - vmm-intro.pdf
+                - dialogue-monitors.pdf
+                - threads-monitors.pdf
+                - dialogue-labs.pdf
+                - lab-tutorial.pdf
+                - lab-projects-systems.pdf
+                - lab-projects-xv6.pdf
