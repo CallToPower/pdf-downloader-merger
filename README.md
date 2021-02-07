@@ -1,5 +1,9 @@
 # PDF Downloader/Merger
 
+Options for
+
+- Downloading (PDF) files
+- Merging PDF files
 
 ## Copyright
 
@@ -12,7 +16,7 @@ Copyright (C) 2021 Denis Meyer
 * Python 3 (as "python3")
 * Windows
   * Add Python to PATH variable in environment
-* Configure src/settings.yaml
+* Configure `src/settings.yaml`
 
 ## Usage
 
